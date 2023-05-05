@@ -1,6 +1,6 @@
 public class DictionaryOrder {
   public static void main(String[] args) {
-
+System.out.println("In lexicographical order:");
     String[] words = { "HTML", "JavaScript", "CSS", "Java" };
 
     for(int i = 0; i < 3; ++i) {
