@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Function</title>
+    </head>
+    <body>
+        <p> Click the button to display the result </p>
+
+        <button onclick="myFunction()">Try it
+        </button>
+        <p id="abc"></p>
+        
+        <script>
+        function myFunction(){
+
+var x=prompt("Please enter your name");
+if(x==""){
+
+document.getElementById("abc").innerHTML="";
+        }
+else if(x!=null){
+
+document.getElementById("abc").innerHTML="Hello " + x + ",how are you?";
+    }
+else {
+    document.getElementById("abc").innerHTML="";
+        }
+} 
+    </script>
+    </body>
+</html>
